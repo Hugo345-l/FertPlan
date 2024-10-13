@@ -31,7 +31,7 @@ O FertiPlan é um sistema desenvolvido para auxiliar grandes agroindústrias e a
 
 O FertiPlan propõe um sistema integrado que oferece recomendações personalizadas de fertilizantes, com foco na otimização do uso dos insumos, redução de custos e promoção de práticas agrícolas mais sustentáveis. A aplicação utiliza dados fornecidos pelo agricultor, como tipo de solo, cultura plantada e disponibilidade de insumos locais, para gerar recomendações inteligentes que ajudam a aumentar a eficiência e a resiliência das operações agrícolas.
 
-- <a href="[https://www.linkedin.com/in/profandregodoi/](https://www.ers.usda.gov/amber-waves/2022/september/brazil-s-momentum-as-a-global-agricultural-supplier-faces-headwinds/)">Artigo de inspiração</a>
+- <a href="https://www.ers.usda.gov/amber-waves/2022/september/brazil-s-momentum-as-a-global-agricultural-supplier-faces-headwinds/">Artigo de inspiração</a>
 
 Como o Sistema Funciona
 
