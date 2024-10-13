@@ -93,7 +93,15 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
---
+Para executar o código do FertiPlan, siga os seguintes passos:
+
+Pré-requisitos
+
+- Python 3.10 ou superior
+
+- IDEs recomendadas: Visual Studio Code, PyCharm ou qualquer outra de sua preferência
+
+- Banco de Dados Oracle (para armazenamento de informações históricas)
 
 
 ## 🗃 Histórico de lançamentos
