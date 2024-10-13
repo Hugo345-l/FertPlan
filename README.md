@@ -27,9 +27,8 @@
 
 📜 Descrição
 
-O FertiPlan é um sistema desenvolvido para auxiliar grandes agroindústrias e agricultores no planejamento e na gestão eficiente de fertilizantes. O projeto visa enfrentar um dos maiores desafios do agronegócio brasileiro: a dependência significativa de fertilizantes importados, que representa aproximadamente 85% do total utilizado no país. Essa dependência gera vulnerabilidade a flutuações de preços e problemas logísticos, impactando diretamente os custos de produção e a sustentabilidade da agricultura.
-
-O FertiPlan propõe um sistema integrado que oferece recomendações personalizadas de fertilizantes, com foco na otimização do uso dos insumos, redução de custos e promoção de práticas agrícolas mais sustentáveis. A aplicação utiliza dados fornecidos pelo agricultor, como tipo de solo, cultura plantada e disponibilidade de insumos locais, para gerar recomendações inteligentes que ajudam a aumentar a eficiência e a resiliência das operações agrícolas.
+  O FertiPlan é um sistema desenvolvido para auxiliar grandes agroindústrias e agricultores no planejamento e na gestão eficiente de fertilizantes. O projeto visa enfrentar um dos maiores desafios do agronegócio brasileiro: a dependência significativa de fertilizantes importados, que representa aproximadamente 85% do total utilizado no país. Essa dependência gera vulnerabilidade a flutuações de preços e problemas logísticos, impactando diretamente os custos de produção e a sustentabilidade da agricultura.
+  O FertiPlan propõe um sistema integrado que oferece recomendações personalizadas de fertilizantes, com foco na otimização do uso dos insumos, redução de custos e promoção de práticas agrícolas mais sustentáveis. A aplicação utiliza dados fornecidos pelo agricultor, como tipo de solo, cultura plantada e disponibilidade de insumos locais, para gerar recomendações inteligentes que ajudam a aumentar a eficiência e a resiliência das operações agrícolas.
 
 - <a href="https://www.ers.usda.gov/amber-waves/2022/september/brazil-s-momentum-as-a-global-agricultural-supplier-faces-headwinds/">Artigo de inspiração</a>
 
@@ -37,41 +36,37 @@ Como o Sistema Funciona
 
 Entrada de Dados do Usuário:
 
-O agricultor insere os dados necessários: tipo de solo (arenoso, argiloso, etc.), cultura plantada (milho, soja, etc.), área de cultivo (em hectares), região do país (para definir a logística e fornecedores), data de plantio, e expectativa de produtividade.
+- O agricultor insere os dados necessários: tipo de solo (arenoso, argiloso, etc.), cultura plantada (milho, soja, etc.), área de cultivo (em hectares), região do país (para definir a logística e fornecedores), data de plantio, e expectativa de produtividade.
 
 Consulta de Dados Estáticos:
 
-Acessando o banco de dados, o sistema consulta a tabela de fertilizantes necessários para cada tipo de solo e cultura, e então calcula a quantidade exata de fertilizante necessário.
-
-Essas tabelas contêm informações sobre as melhores práticas para cada tipo de solo e cultura, fornecendo dados objetivos que facilitam a recomendação.
+- Acessando o banco de dados, o sistema consulta a tabela de fertilizantes necessários para cada tipo de solo e cultura, e então calcula a quantidade exata de fertilizante necessário. Essas tabelas contêm informações sobre as melhores práticas para cada tipo de solo e cultura, fornecendo dados objetivos que facilitam a recomendação.
 
 Consulta de Preços e Disponibilidade:
 
-O sistema então consulta uma base estática com informações sobre preços dos fertilizantes disponíveis no mercado internacional e local. Esta base incluirá informações sobre os fornecedores, se o fertilizante é importado ou local, preço por tonelada, qualidade do fertilizante, e a disponibilidade atual.
-
-As informações são comparadas para recomendar a melhor opção de custo-benefício, levando em consideração a logística de distribuição e a qualidade dos insumos.
+- O sistema então consulta uma base estática com informações sobre preços dos fertilizantes disponíveis no mercado internacional e local. Esta base incluirá informações sobre os fornecedores, se o fertilizante é importado ou local, preço por tonelada, qualidade do fertilizante, e a disponibilidade atual. As informações são comparadas para recomendar a melhor opção de custo-benefício, levando em consideração a logística de distribuição e a qualidade dos insumos.
 
 Geração de Recomendação:
 
-A partir dos dados inseridos pelo agricultor e as consultas realizadas, o sistema gera uma recomendação que inclui:
+- A partir dos dados inseridos pelo agricultor e as consultas realizadas, o sistema gera uma recomendação que inclui:
 
-O tipo de fertilizante (importado ou local).
+- O tipo de fertilizante (importado ou local).
 
-A quantidade necessária para atingir a expectativa de produtividade.
+- A quantidade necessária para atingir a expectativa de produtividade.
 
-Comparação dos custos entre diferentes fornecedores.
+- Comparação dos custos entre diferentes fornecedores.
 
-Sugestão do melhor fornecedor com base em custo, qualidade e disponibilidade.
+- Sugestão do melhor fornecedor com base em custo, qualidade e disponibilidade.
 
 Relatórios:
 
 Um relatório detalhado em formato PDF é gerado, contendo:
 
-A recomendação de fertilizantes e quantidade.
+- A recomendação de fertilizantes e quantidade.
 
-Comparação de fornecedores (preço, qualidade).
+- Comparação de fornecedores (preço, qualidade).
 
-Informações sobre disponibilidade e previsão de entrega.
+- Informações sobre disponibilidade e previsão de entrega.
 
 Esses relatórios podem ser consultados a qualquer momento e servem como base para o agricultor tomar decisões estratégicas durante o processo produtivo.
 
