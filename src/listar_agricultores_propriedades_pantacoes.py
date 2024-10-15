@@ -57,6 +57,3 @@ def listar_agricultores_propriedades_plantacoes():
         if conn:
             conn.close()
 
-# Testa a função
-if __name__ == "__main__":
-    listar_agricultores_propriedades_plantacoes()
