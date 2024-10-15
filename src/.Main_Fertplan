@@ -1,5 +1,12 @@
-# Importação de módulos necessários
+# Importação dos módulos
 import os
+import oracledb
+import pandas as pd
+from cadastrar_agricultor import cadastrar_agricultor
+from cadastrar_propriedade import cadastrar_propriedade
+from cadastrar_plantacao import cadastrar_plantacao
+
+# Tentativa de Conexão com o Banco de Dados
 
 # Função para limpar a tela
 def limpa_tela():
@@ -14,10 +21,11 @@ def menu_gestao():
         1 - Cadastrar Agricultor
         2 - Cadastrar Propriedade
         3 - Cadastrar Plantação
-        4 - Listar Agricultores, Propriedades e Plantações
-        5 - Alterar Agricultor, Propriedade ou Plantação
-        6 - Excluir Agricultor, Propriedade ou Plantação
-        7 - Sair
+        4 - Recomendar Fertilizantes
+        5 - Listar Agricultores, Propriedades e Plantações
+        6 - Alterar Agricultor, Propriedade ou Plantação
+        7 - Excluir Agricultor, Propriedade ou Plantação
+        8 - Sair
         """)
         opcao = input("Escolha uma opção: ")
 
@@ -28,30 +36,25 @@ def menu_gestao():
         elif opcao == '3':
             cadastrar_plantacao()
         elif opcao == '4':
-            listar_agricultores_propriedades_plantacoes()
+            recomendar_fertilizantes()
         elif opcao == '5':
-            alterar_agricultor_propriedade_plantacao()
+            listar_agricultores_propriedades_plantacoes()
         elif opcao == '6':
-            excluir_agricultor_propriedade_plantacao()
+            alterar_agricultor_propriedade_plantacao()
         elif opcao == '7':
-            print("Obrigado por usar a FertiPlan :) !!\nAté Mais!")
+            excluir_agricultor_propriedade_plantacao()
+        elif opcao == '8':
+            print("Obrigado por usar a FertPlan :) !!\nAté Mais!")
             break
         else:
             print("Opção inválida!")
         input("Pressione Enter para continuar...")
 
-# Funções placeholders para cada ação do menu
-def cadastrar_agricultor():
-    print("Cadastro de Agricultor - Função a ser implementada")
-
-def cadastrar_propriedade():
-    print("Cadastro de Propriedade - Função a ser implementada")
-
-def cadastrar_plantacao():
-    print("Cadastro de Plantação - Função a ser implementada")
+def recomendar_fertilizantes():
+    print("Recomendação de Fertilizantes- Função a ser implementada")
 
 def listar_agricultores_propriedades_plantacoes():
-    print("Listagem de Agricultores, Propriedades e Plantações - Função a ser implementada")
+    print("listar_agricultores_propriedades_plantacoes - Função a ser implementada")
 
 def alterar_agricultor_propriedade_plantacao():
     print("Alteração de Agricultor, Propriedade ou Plantação - Função a ser implementada")
