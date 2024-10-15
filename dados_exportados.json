@@ -1,0 +1,63 @@
+{
+    "agricultores": [
+        {
+            "nome": "Hugo Mariano",
+            "email": "f@g.com",
+            "telefone": "11123456789",
+            "cpf": 11123456789
+        },
+        {
+            "nome": "Bruno",
+            "email": "b@algo",
+            "telefone": "41123456789",
+            "cpf": 12456789123
+        },
+        {
+            "nome": "Ariel",
+            "email": "ariel@algo",
+            "telefone": "47852963741",
+            "cpf": 14123456789
+        }
+    ],
+    "propriedades": [
+        {
+            "propriedade_id": 1,
+            "nome": "fazendo amor",
+            "localizacao": "SP",
+            "area_total": 200.0,
+            "cpf_agricultor": 11123456789
+        },
+        {
+            "propriedade_id": 2,
+            "nome": "fazenda ódio",
+            "localizacao": "MT",
+            "area_total": 500.0,
+            "cpf_agricultor": 12456789123
+        },
+        {
+            "propriedade_id": 3,
+            "nome": "fazenda da inveja",
+            "localizacao": "RO",
+            "area_total": 500.0,
+            "cpf_agricultor": 14123456789
+        }
+    ],
+    "plantacoes": [
+        {
+            "plantacao_id": 2,
+            "propriedade_id": 2,
+            "cultura_id": 3,
+            "area_cultivo": 100.0,
+            "solo_id": 1,
+            "data_plantio": "12/09/2025"
+        },
+        {
+            "plantacao_id": 1,
+            "propriedade_id": 1,
+            "cultura_id": 1,
+            "area_cultivo": 100.0,
+            "solo_id": 2,
+            "data_plantio": "12/10/2024"
+        }
+    ]
+}
