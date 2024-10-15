@@ -1,0 +1,1 @@
+Pasta com outros arquivos utéis de estudo destinados ao GRUPO
