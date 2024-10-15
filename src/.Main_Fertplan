@@ -5,7 +5,11 @@ import pandas as pd
 from cadastrar_agricultor import cadastrar_agricultor
 from cadastrar_propriedade import cadastrar_propriedade
 from cadastrar_plantacao import cadastrar_plantacao
+from listar_agricultores_propriedades_pantacoes import listar_agricultores_propriedades_plantacoes
 from recomendar_fertilizantes import recomendar_fertilizantes
+from excluir_agricultor_propriedade_plantacao import apagar_agricultor_propriedade_plantacao
+from alterar_agricultor_propriedade_plantacao import alterar_agricultor_propriedade_plantacao
+
 
 # Tentativa de Conexão com o Banco de Dados
 
@@ -43,22 +47,13 @@ def menu_gestao():
         elif opcao == '6':
             alterar_agricultor_propriedade_plantacao()
         elif opcao == '7':
-            excluir_agricultor_propriedade_plantacao()
+            apagar_agricultor_propriedade_plantacao()
         elif opcao == '8':
             print("Obrigado por usar a FertPlan :) !!\nAté Mais!")
             break
         else:
             print("Opção inválida!")
         input("Pressione Enter para continuar...")
-
-def listar_agricultores_propriedades_plantacoes():
-    print("listar_agricultores_propriedades_plantacoes - Função a ser implementada")
-
-def alterar_agricultor_propriedade_plantacao():
-    print("Alteração de Agricultor, Propriedade ou Plantação - Função a ser implementada")
-
-def excluir_agricultor_propriedade_plantacao():
-    print("Exclusão de Agricultor, Propriedade ou Plantação - Função a ser implementada")
 
 # Execução do menu de gestão
 if __name__ == "__main__":

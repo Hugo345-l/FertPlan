@@ -7,9 +7,9 @@
             "cpf": 11123456789
         },
         {
-            "nome": "Bruno",
-            "email": "b@algo",
-            "telefone": "41123456789",
+            "nome": "buruno",
+            "email": "buruno@buruno.com",
+            "telefone": "11916333333",
             "cpf": 12456789123
         },
         {
@@ -22,7 +22,7 @@
     "propriedades": [
         {
             "propriedade_id": 1,
-            "nome": "fazendo amor",
+            "nome": "fazendo amorz",
             "localizacao": "SP",
             "area_total": 200.0,
             "cpf_agricultor": 11123456789
@@ -33,13 +33,6 @@
             "localizacao": "MT",
             "area_total": 500.0,
             "cpf_agricultor": 12456789123
-        },
-        {
-            "propriedade_id": 3,
-            "nome": "fazenda da inveja",
-            "localizacao": "RO",
-            "area_total": 500.0,
-            "cpf_agricultor": 14123456789
         }
     ],
     "plantacoes": [
@@ -50,14 +43,6 @@
             "area_cultivo": 100.0,
             "solo_id": 1,
             "data_plantio": "12/09/2025"
-        },
-        {
-            "plantacao_id": 1,
-            "propriedade_id": 1,
-            "cultura_id": 1,
-            "area_cultivo": 100.0,
-            "solo_id": 2,
-            "data_plantio": "12/10/2024"
         }
     ]
 }
